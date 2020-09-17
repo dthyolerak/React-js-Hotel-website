@@ -1,0 +1,351 @@
+.contact{
+    margin: 4rem 0rem 0rem 0rem;
+    min-height: calc(110vh - 66px);
+    background: url("../../images/ralph-ravi-kayden-FqqiAvJejto-unsplash.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aboutContact{
+   z-index:4;
+    margin-left: 2rem;
+    background: rgba(24, 24, 24, 0.5)
+}
+.contact-form{
+    text-align: center;
+    font-family:  'Arial Narrow Bold', sans-serif;
+ z-index:5;
+}
+.contact-us{
+    background: rgba(7, 7, 7, 0.5);
+    font-size: 1.3rem;
+ margin: 0rem 2rem;
+ z-index:5;
+ color: bisque;
+
+}
+.contact-us span{
+    color: bisque;
+    z-index:5;
+}
+
+form p{
+ font-size: 1.2rem;
+ font-style: oblique;
+ margin: 0rem 2rem;
+ font-family: Impact,'Arial Narrow Bold', sans-serif;
+ z-index:5;
+}
+form h1{
+    text-align: center;
+ font-size: 1.4rem;
+    font-family:  'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    z-index:5;
+}
+input{
+    height: 1.8rem;
+    width: 20rem;
+    margin: 0rem 2rem;
+    z-index:5;
+    
+}
+
+
+textarea {
+    width: 20rem;
+    margin: 0rem 2rem;
+    z-index:5;
+}
+
+.submit{
+    background:rgba(7, 7, 7, 0.5); 
+    font-size: 1.3rem;
+    z-index:5;
+    color: bisque;
+
+}
+.submit:hover{
+    color:gray;
+    background: skyblue
+}
+
+
+.back-image{
+    font-size: 1.3rem;
+    color: rgb(75, 70, 64);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    animation: back-image-one 8s linear infinite;
+}
+
+.back-image1{
+    font-size: 1.3rem;
+    color: rgb(75, 70, 64);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    animation: back-image-one 10s linear infinite;
+}
+.back-image2{
+    font-size: 1.3rem;
+    color: rgb(75, 70, 64);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    animation: back-image-one 13s linear infinite;
+}
+.back-image3{
+    font-size: 1.3rem;
+    color: rgb(75, 70, 64);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    animation: back-image-one 17s linear infinite;
+}
+.back-image4{
+    font-size: 1.3rem;
+    color: rgb(75, 70, 64);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    animation: back-image-one 20s linear infinite;
+}
+.back-image-one{
+    font-size: 1.3rem;
+    color: rgb(75, 70, 64);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    animation: back-image 8s linear infinite;
+
+}
+
+@keyframes back-image-one{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    5%{
+       
+        opacity: 1;
+    }
+    75%{
+       
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(+110vh);
+        opacity: 0;
+    }
+
+}
+
+@keyframes back-image{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    59%{
+       
+        opacity: 1;
+    }
+    75%{
+       
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-110vh);
+        opacity: 0;
+    }
+
+}
+
+.back-imag{
+    font-size: 1.3rem;
+    color: rgb(75, 70, 64);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    animation: back-image-one 9s linear infinite;
+}
+.back-image-on{
+    font-size: 1.3rem;
+    color: rgb(75, 70, 64);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    animation: back-image 13s linear infinite;
+
+}
+.back-image-o1{
+    font-size: 1.3rem;
+    color: rgb(75, 70, 64);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    animation: back-image 18s linear infinite;
+
+}
+.back-image-o2{
+    font-size: 1.3rem;
+    color: rgb(75, 70, 64);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    animation: back-image 15s linear infinite;
+
+}
+.back-image-o3{
+    font-size: 1.3rem;
+    color: rgb(75, 70, 64);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    animation: back-image 16s linear infinite;
+
+}
+
+@keyframes back-image-one{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    5%{
+       
+        opacity: 1;
+    }
+    75%{
+       
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(+110vh);
+        opacity: 0;
+    }
+
+}
+
+@keyframes back-image{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    59%{
+       
+        opacity: 1;
+    }
+    75%{
+       
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+
+}
+.back-image-1{
+    font-size: 1.3rem;
+    color: rgb(75, 70, 64);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    animation: back-image 3s linear infinite;
+}
+
+.bac-image-o{
+    font-size: 1.3rem;
+    color: rgb(75, 70, 64);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    animation: back-image 20s linear infinite;
+
+}
+
+
+.back-image-o{
+    font-size: 1.3rem;
+    color: rgb(75, 70, 64);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    animation: back-image 10s linear infinite;
+
+}
+
+@keyframes back-image-one{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    5%{
+       
+        opacity: 1;
+    }
+    75%{
+       
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(+80vh);
+        opacity: 0;
+    }
+
+}
+
+@keyframes back-image{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    59%{
+       
+        opacity: 1;
+    }
+    75%{
+       
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+
+}
+
+
+
+
+
+
+

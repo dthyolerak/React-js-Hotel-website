@@ -1,0 +1,241 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+ 
+  min-width: 22rem;
+ 
+}
+
+
+
+/* header style*/
+
+.header {
+  z-index: 6;
+min-width: 18.5rem;
+ position: fixed;
+opacity: .9;
+ top: 0rem;
+  background: gainsboro;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  width: 100%;
+  border-bottom: .5rem solid#808080d5;
+}
+.business{
+  color:#808080d5;
+}
+.cbc:hover{
+  border: .2rem solid #808080d5;
+  background: gainsboro;
+  transition: all .5s ease-in-out;
+ text-align: initial;
+ font-style: italic;
+ font-weight: bolder;
+
+ padding: .5rem;
+}
+
+.thyo{
+  color:#3f3c3cd5;
+}
+
+.logo {
+  padding: 1rem 0rem 1rem 0rem;
+  max-width: 5rem;
+  align-self: center;
+  margin-bottom: -2rem;
+}
+
+.brand  {
+  margin-top: -2rem;
+  font-size: 2rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header-links{
+  text-transform: uppercase;
+ 
+  margin-top: 1rem;
+}
+button{
+  
+  color: #333131d5;
+  font-size: 2rem;
+  display: none;
+  cursor: pointer;
+
+}
+button:hover{
+  transform: scale(1.3)
+}
+
+.header-links li{
+  z-index: 5;
+  font-style: normal;
+  font-weight: bold;
+  padding: .2rem;
+}
+
+.header-links li:hover{
+  border: .2rem solid #808080d5;
+  background: gainsboro;
+  transition: all .5s ease-in-out;
+ text-align: initial;
+ font-style: italic;
+ font-weight: bolder;
+ font-size: 1.3rem;
+ padding: .5rem;
+ 
+}
+
+.sidebar {
+  z-index: 6;
+  position: fixed;
+  transition: all .7s ;
+  transform: translateX(-15rem);
+  width: 15rem;
+  color: rgb(32, 24, 24);
+  color: aliceblue;
+  height: 100%;
+  background: #2e2c2cd5;
+}
+.sidebar ul{
+  
+  margin-top: 1.5rem;
+}
+.sidebar a{
+  padding: .5rem;
+  color: aliceblue;
+  margin-left: 1.3rem;
+  text-transform: uppercase;
+}
+.sidebar.open {
+  transform: translateX(0rem);
+}
+
+.sidebar a {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.sidebar-closeMenu-btn {
+  border: .2rem solid #808080d5;
+  background: gainsboro;
+  margin-top: 1rem;
+  padding: .7rem;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  position: absolute;  
+  right: 0.5rem;
+  top: 0rem;
+}
+.sidebar-closeMenu-btn:hover{
+ font-size: 2rem;
+ transform: scale(1);
+ border: .2rem solid #808080d5;
+  background: gainsboro;
+  color: #201e1e;
+}
+
+.sidebar li:hover{
+  border: .2rem solid #808080d5;
+  color: #201e1e;
+  text-align: initial;
+  font-style: italic;
+  font-weight: bolder;
+  padding: 0rem 1rem 0rem ;
+  background: gainsboro;
+  transition: all .5s ease-in-out;
+ 
+}
+
+@media (max-width: 53rem){
+  button{
+    margin-top: 1rem;
+    color: #808080d5;
+    font-size: 2rem;
+    display: contents;
+  
+  }
+  .header-links{
+    display: none;
+  }
+
+}
+@media(max-width:35rem){
+  .brand{
+    font-size: 1.8rem; 
+    
+  }
+  button{
+    
+    margin-top: -2.5rem;
+    color: #333131d5;
+    font-size: 2rem;
+    
+    cursor: pointer;
+  
+  }
+  
+}
+
+/*end header style*/
+
+
+/*footer style*/
+
+.footer-links{
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1rem;
+  flex-wrap: wrap;
+  list-style: none;
+
+ 
+  margin-top: 1rem;
+}
+.footer-links li{
+  padding: 1rem;
+}
+
+.footer-links li:hover{
+  border: .2rem solid #808080d5;
+  background: gainsboro;
+  transition: all .4s ease-in-out;
+ text-align: initial;
+ font-style: italic;
+ font-weight: bolder;
+
+ padding:.4rem;
+ 
+}
+
+.footer {
+ 
+  background: #808080d5;
+  padding: 0.5rem;
+  text-align: center;
+  
+  width: 100%;
+  border-top: .5rem solid rgb(70, 56, 56);
+}
+.footer p {
+  font-size: 1.6rem;
+  font-style: italic;
+  font-weight: bolder;
+  
+}
+/*end footer style*/
