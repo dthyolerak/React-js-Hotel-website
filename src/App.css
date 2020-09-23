@@ -395,7 +395,8 @@ justify-content: center;
     grid-column-gap: 50px;
   }
   .single-room-images img {
-    width: 100%;
+   max-width: 22rem;
+    max-height: 22rem;
     display: block;
   }
   .single-room-info {

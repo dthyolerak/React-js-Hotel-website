@@ -83,12 +83,12 @@ export default [
     },
     fields: {
       name: "double basic",
-      slug: "double basic",
+      slug: "double basi",
       type: "double",
-      price: 400,
-      size: 500,
+      price: 300,
+      size: 400,
       capacity: 2,
-      pets: true,
+      pets: false,
       breakfast: true,
       featured: false,
       description:
@@ -889,7 +889,7 @@ export default [
     fields: {
       name: "double basic",
       slug: "double basic",
-      type: "double ",
+      type: "double",
       price: 400,
       size: 500,
       capacity: 2,

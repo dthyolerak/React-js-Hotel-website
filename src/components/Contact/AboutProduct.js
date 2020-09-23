@@ -213,7 +213,7 @@ export default function AboutProduc() {
             </div>
 
             <div>
-                <form className="form">
+                <form className="form" name="contact" Netlify>
                     <div>
                     <h1>Contact Form</h1>
     <div className="class">
