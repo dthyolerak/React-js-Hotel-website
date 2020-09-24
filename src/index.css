@@ -161,6 +161,7 @@ button:hover{
 @media (max-width: 53rem){
   button{
     margin-top: 1rem;
+    margin-right: 2rem;
     color: #808080d5;
     font-size: 2rem;
     display: contents;
@@ -177,7 +178,7 @@ button:hover{
     
   }
   button{
-    
+    margin-right: 2rem;
     margin-top: -2.5rem;
     color: #333131d5;
     font-size: 2rem;
@@ -229,7 +230,6 @@ button:hover{
   padding: 0.5rem;
   text-align: center;
   
-  width: 100%;
   border-top: .5rem solid rgb(70, 56, 56);
 }
 .footer p {

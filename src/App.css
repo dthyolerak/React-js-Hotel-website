@@ -2,7 +2,7 @@
     margin: 0rem;
     padding: 0rem;
     box-sizing: border-box;
-    
+   
 }
 
 .header li{
@@ -384,7 +384,7 @@ justify-content: center;
   }
   .single-room {
     border-top: .5rem solid rgb(70, 56, 56);
-    padding: 1rem 0 0 0;
+    padding: 1rem ;
   }
   .single-room-images {
     width: 80vw;
@@ -396,7 +396,7 @@ justify-content: center;
   }
   .single-room-images img {
    max-width: 22rem;
-    max-height: 22rem;
+    max-height: 19rem;
     display: block;
   }
   .single-room-info {
