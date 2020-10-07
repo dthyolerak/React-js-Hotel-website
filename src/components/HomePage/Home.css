@@ -9,7 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-   
+  
   
     
 }
@@ -164,7 +164,6 @@
 .services{
     
     max-width: 100%;
-    background:linear-gradient(rgba(15, 15, 15, 0.9),rgba(130, 130, 134, 0.87));
    padding: 3rem  1rem;
    margin: auto;
     

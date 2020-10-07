@@ -14,8 +14,8 @@ function RoomContainer({context}){
     return(
         <>
        
-        <RoomFilter rooms={rooms}  />
-        <RoomList rooms={sortedRooms} />
+        <RoomFilter rooms={rooms} className="wildth"  />
+        <RoomList rooms={sortedRooms} className="wildth" />
     </>
     )
 }

@@ -13,21 +13,6 @@ body {
 
 /* header style*/
 
-.header {
-  z-index: 6;
-min-width: 18.5rem;
- position: fixed;
-opacity: .9;
- top: 0rem;
-  background: gainsboro;
-  padding: 0.5rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  
-  width: 100%;
-  border-bottom: .5rem solid#808080d5;
-}
 .business{
   color:#808080d5;
 }
@@ -225,7 +210,7 @@ button:hover{
 }
 
 .footer {
- 
+ width: 100%;
   background: #808080d5;
   padding: 0.5rem;
   text-align: center;

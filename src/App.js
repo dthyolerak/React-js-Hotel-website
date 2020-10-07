@@ -17,19 +17,19 @@ function App() {
      <>
     <div className="App">
      {/*common bar for all pages */} 
-      <Navbar />
+      <Navbar   className="wildth"/>
       {/* end common bar for all pages */} 
  {/*common bar for all pages */}
       <Switch>
-      <Route  exact path ="/" component= {Home} />
-      <Route  exact path ="/rooms" component= {Rooms} />
-      <Route  exact path ="/intertainment" component= {Intertainment} />
-      <Route  exact path ="/Biography" component= {Biography} />
-      <Route  exact path ="/Contacts" component= {Contacts} />
-      <Route  exact path ="/Help" component= {Help} />
-      <Route  exact path ="/Rooms/:id" component= {Rooms} />
-      <Route  exact path ="/SingleRoom/:slug" component= {SingleRoom} />
-      <Route   component= {Default} />
+      <Route  exact path ="/" component= {Home} className="wildth" />
+      <Route  exact path ="/rooms" component= {Rooms}  className="wildth" />
+      <Route  exact path ="/intertainment" component= {Intertainment}  className="wildth" />
+      <Route  exact path ="/Biography" component= {Biography} className="wildth" />
+      <Route  exact path ="/Contacts" component= {Contacts}  className="wildth" />
+      <Route  exact path ="/Help" component= {Help} className="wildth" />
+      <Route  exact path ="/Rooms/:id" component= {Rooms}  className="wildth"/>
+      <Route  exact path ="/SingleRoom/:slug" component= {SingleRoom}  className="wildth" />
+      <Route   component= {Default}  className="wildth" />
 
       </Switch>
      
@@ -37,7 +37,7 @@ function App() {
      {/* end common bar for all pages */} 
    
       {/* common footer for all pages */} 
-     <Footer />
+     <Footer  className="wildth" />
      {/* end common footer for all pages */} 
 
 

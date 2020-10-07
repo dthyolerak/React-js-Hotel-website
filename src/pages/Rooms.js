@@ -6,7 +6,7 @@ const closeMenu = () => {
 export default function Rooms() {
     return (
         <div className="Rooms" onClick={closeMenu}>
-          <RoomsBc /> 
+          <RoomsBc className="wildth" /> 
         </div>
     )
 }

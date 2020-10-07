@@ -11,7 +11,7 @@ export default function Footer() {
         <ProductConsumer>
           {value=>{
             return(
-              <footer className="footer" onClick={closeMenu}>
+              <footer className="footer" onClick={closeMenu}  >
         
 
         <div className="footer-links" >

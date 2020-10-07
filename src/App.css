@@ -5,6 +5,22 @@
    
 }
 
+.header {
+  z-index: 6;
+
+ position: fixed;
+opacity: .9;
+ top: 0rem;
+  background: gainsboro;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  width: 100%;
+  border-bottom: .5rem solid#808080d5;
+}
+
 .header li{
     list-style: none;
     display: inline;
@@ -60,7 +76,7 @@ text-align: center
   border-bottom: .5rem solid rgb(70, 56, 56);
 }
 .roomsHero {
-  
+  width: 100%;
   background: url("./images/ralph-ravi-kayden-FqqiAvJejto-unsplash.jpg") center/cover no-repeat;
   min-height: 65vh;
 }
@@ -278,6 +294,7 @@ justify-content: center;
   
   .featured-rooms {
     padding: 1rem 0;
+    width: 100%;
   }
 
   .featured-rooms-center {
@@ -303,6 +320,9 @@ justify-content: center;
   }
   /* end pf featured rooms */
   /* room */
+  .Rooms{
+    width: 100%;
+  }
   .room {
     display: inline-flex;
     list-style: none;
@@ -459,7 +479,9 @@ justify-content: center;
   /* end of single room*/
   /* roomlist */
   .roomslist {
-    padding: 5rem 0;
+    width: 100%;
+    margin: 0rem;
+    padding: 3rem 0;
   }
  
   
@@ -476,8 +498,10 @@ justify-content: center;
   }
   /* end of roomlist */
   /*  rooms fitler*/
+  
   .filter-container {
     padding: 1rem 0;
+    max-width: 100%;
     background:rgb(180, 178, 174);
   }
   .filter-form {

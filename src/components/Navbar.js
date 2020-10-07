@@ -16,7 +16,8 @@ export default function Navbar() {
         <ProductConsumer>
           {value=>{
             return(
-              <div>
+              <>
+              
 
         <header className="header">
          <div className="brand">
@@ -70,7 +71,7 @@ export default function Navbar() {
 </div>
       
            
-</div>   
+</>   
             )
           }}
         </ProductConsumer>

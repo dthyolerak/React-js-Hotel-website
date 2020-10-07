@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-//import items from './data';
-import Client from './Contentful'
+import items from './data';
+//import Client from './Contentful'
 
 const RoomContext = React.createContext();
 //<RoomContext.Provider value={'donnex'}
@@ -24,7 +24,7 @@ const RoomContext = React.createContext();
     
     //getData
 
-    getData = async () =>{
+   /* getData = async () =>{
         try {
           let response =await Client.getEntries({
 
@@ -51,11 +51,11 @@ const RoomContext = React.createContext();
         } catch (error) {
             console.log(error);
         }
-    }
+    }*/
     componentDidMount()
     {
-        this.getData()
-      /*let rooms = this.formatData(items);
+       // this.getData()
+      let rooms = this.formatData(items);
        
         let featuredRooms = rooms.filter( room=> room.featured
              === true);
@@ -70,7 +70,7 @@ const RoomContext = React.createContext();
                  price: maxPrice,
                  maxSize,maxPrice
             }
-            );*/
+            );
         
     }
 
